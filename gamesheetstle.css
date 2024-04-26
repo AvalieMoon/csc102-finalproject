@@ -1,0 +1,33 @@
+/* this is for the body area of the code style */
+
+body{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* this ones for only music style */
+/* This is for spacing */
+audio{
+    padding: 50px;
+} 
+/* this is for whlole play backgroud of the button  */
+audio::-webkit-media-controls-panel{
+    background-color: rgb(48, 82, 146);
+}
+/* This is for the cuircle of the play button */
+audio::-webkit-media-controls-play-button{
+    background-color: lightblue;
+    border-radius: 50%;
+}
+/* This is the color of time played of the song */
+audio::-webkit-media-controls-current-time-display{
+    color: #353333;
+}
+/* This is the time remaining of the song */
+audio::-webkit-media-controls-time-remaining-display{
+    color: #333;
+}

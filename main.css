@@ -1,0 +1,38 @@
+selector{
+    property: value;
+
+}
+body{
+    background-color: rgba(109, 109, 236, 0.507);
+}
+
+nav{
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    background-color: rgba(151, 75, 238, 0.795);
+}
+
+Nav img{
+    width: 150px;
+    height: 200px;
+}
+
+Nav a:hover{
+    background-color: black;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#MemeImage{
+    margin-right: 200px;
+}
+
+h1{
+    text-align: center;
+}

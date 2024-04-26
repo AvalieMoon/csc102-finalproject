@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+<!---This links the style sheet to html-->
+    <link rel="stylesheet" href="gamesheetstle.css">
+</head>
+<body>
+    <h1> The Start </h1>
+        <nav>
+            <h2>The projects we made!</h2>
+
+                <a href="Landingpage.html">Home page</a><br>
+                <a href="index.html">Assignment 1/index</a><br>
+                <a href="boards.html"> Assignment 1.2/boards</a><br>
+                <a href="Game.html">Assignment 2/Game</a><br>
+                <a href="Strings.html">Assignment 3-4/Palidrome</a><br>
+                <a href="imagepract.html">Assignment 5/Moving Picture</a><br>
+
+         </nav><br><br>
+<!----The header, which is at the biggest point 1-->
+     <h1> Rock - Paper - Scissors </h1>
+        <!-- This div is suppse to close our buttons, with an ID so we can link it with our js-->
+        <div class="choices">
+            <!---The bottons, on click will run also shows on the page. It goes into the function with an arguments.-->
+            <button onclick="playGame('rock')">Rock</button>
+            <button onclick="playGame('paper')">Paper</button>
+            <button onclick="playGame('scissors')">Scissors</button>
+        </div>
+        <!---Div display will show on the webside what the pplayer picks depending one what they choose--->
+        <div id="playerDisplay">PLAYER: </div>
+        <!---Same for the computer-->
+        <div id="computerDisplay">COMPUTER: </div>
+        <!--And the result or score-->
+        <div id="resultDisplay"></div>
+        <!---Player scare shown-->
+        <div class="scoreDisplay">Player Score: 
+            <span id="playerScoreDisplay">0</span>
+        </div>
+        <!----Computer score shown-->
+        <div class="scoreDisplay">Computer Score: 
+            <span id="computerScoreDisplay">0</span>
+        </div>
+    <!---Link to the js it can connect to html-->
+
+    <!--Audio elemant-->
+    <audio controls loop src="no-copyright-for-her-chill-upbeat-summel-travel-vlog-and-ig-music-202298.mp3"></audio>
+    <!--Put inloop so it automatically starts play again when the song ended-->
+    
+    <script src="code.js"></script>
+</body>
+
+<footer><br>
+    Olivia Anderson<br>
+    University of Advancing Technology<br>
+    2625 W Baseline Rd<br>
+    Tempe, AZ 85283<br>
+</footer>
+
+</html> 
